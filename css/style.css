@@ -5,13 +5,31 @@ body {
 }
 
 .main {
-    background-image: url("./../image/main.jpg");
-    height: 100vh;
+    /* background-image: url("./../image/main2.jpg"); */
+    background: rgb(235, 235, 235);
+    height: 30vh;
     background-position: center;
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #000;
+    text-align: center;
+    border-bottom: solid 1px #000;
+}
+
+.contact {
+    display: flex;
+}
+
+.contact .container {
+    flex: 1 1 300px;
+
+}
+.contact .twitter .img {
+    background-color: #00aced;
+    min-height: 100px;
     color: #fff;
     text-align: center;
+    font-size: 5em;
 }
